@@ -1,0 +1,37 @@
+.wrap-categories {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.wrap-categories ul {
+    display: flex;
+    flex-grow: 1;
+    gap: 15px;
+    justify-content: flex-end;
+    margin-right: 15px;
+}
+
+.wrap-categories li {
+    padding: 8px 14px 9px;
+    background: crimson;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    border: 0;
+    border-radius: 4px;
+    /* box-shadow: 0 2px 2px rgba(0,0,0,0.1), 0 1px 1px rgba(0,0,0,0.2); */
+    /* transition: all 0.3s cubic-bezier(.25,.8,.25,1); */
+}
+
+/* .wrap-categories button:hover {
+    box-shadow: 0 12px 20px rgba(0,0,0,0.2), 0 4px 10px rgba(0,0,0,0.18);
+} */
+
+.wrap-categories form {
+    display: flex;
+}
+
+.wrap-categories input {
+    padding: 0 15px;
+    font-family: 'Inter', sans-serif;
+}

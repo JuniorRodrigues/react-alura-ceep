@@ -1,0 +1,19 @@
+
+.lista-notas {
+    background-color: var(--fundo);
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    grid-template-columns: auto auto auto auto auto;
+    list-style-type: none;
+    padding: 24px;
+}
+
+.lista-notas_item {
+    flex-grow: 1;
+    margin: .8rem .8rem 2.1rem;
+    min-width: 16rem;
+    max-width: 16rem;
+    max-height: 400px;
+    display: inline;
+}
